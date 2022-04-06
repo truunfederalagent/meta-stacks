@@ -27,5 +27,5 @@ def get_tickets(wallet):
     stacks = get_stacks(metas)
     return 1 if len(stacks) == 0 else sum(stacks.values())
 
-wallet = 'FZY6J6CLIVTPNICVJGYR4MXHVVYTC5UHTSULZGV5TAPEOHI5U2ETRXJ75A'
+wallet = '...'
 print(get_tickets(wallet))
